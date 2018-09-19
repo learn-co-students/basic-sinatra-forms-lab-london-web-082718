@@ -7,7 +7,6 @@ get '/newteam' do
 end
 
 post '/team' do
-  # @info = params
   erb :team
 end
 
